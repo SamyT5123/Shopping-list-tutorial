@@ -1,0 +1,72 @@
+body {
+    height:100vh;
+    margin:0;
+    text-align: center;
+    background: linear-gradient(to top right, lightblue, darkblue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* button on new list items */
+button {
+    margin-left:5rem;
+    background-color: lightcoral;
+    border-radius:30px;
+    border:none;
+    background: linear-gradient(to top right, lightblue, darkblue);
+}
+
+#submit {
+    background: linear-gradient(to top right, lightblue, darkblue);
+    width: 100px;
+}
+
+
+/* input field */
+input{
+    border:none;
+    padding:5px;
+    border-radius:99vh;
+}
+
+input:focus{
+    border:none;
+    outline:none;
+}
+
+
+/* container for the list */
+#list-container {
+    width:600px;
+    height:600px;
+    max-width:600px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding:40px;
+    border-radius:20px;
+}
+
+
+
+/* list items in container */
+#list-container ol li {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:1.3rem;
+    background-color: rgba(255,255,255,0.6);
+    padding:10px;
+    border-radius:99vh;
+    font-size:1.3rem;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.6);
+    padding-left:30px;
+
+    
+}
+
+/* #box{
+    border:1px solid black;
+    width:200px;
+    height:200px;
+} */
